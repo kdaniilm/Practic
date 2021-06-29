@@ -13,8 +13,8 @@ namespace Practic1
     {
         public Startup(IConfiguration configuration, IHostEnvironment environment)
         {
-
-            Configuration = new ConfigurationBuilder().AddJsonFile($"appsettings.{environment.EnvironmentName}.json").Build();
+            //{environment.EnvironmentName}.
+            Configuration = new ConfigurationBuilder().AddJsonFile($"appsettings.json").Build();
         }
 
         public IConfiguration Configuration { get; }

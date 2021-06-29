@@ -18,8 +18,14 @@ export class HomeComponent {
 
 export class Settings {
   enviromentSettings: EnviromentSettings;
+  allowedOrigins: AllowedOrigins;
 }
 
 export class EnviromentSettings {
   name: string;
+}
+export class AllowedOrigins {
+  googleLink: string;
+  amazonLink: string;
+  azureLink: string;
 }
