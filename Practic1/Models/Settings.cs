@@ -8,6 +8,6 @@ namespace Practic1.Models
     public class Settings
     {
         public EnviromentSettings EnviromentSettings { get; set; }
-        public AllowedOrigins AllowedOrigins { get; set; }
+        public string[] AllowedOrigins { get; set; }
     }
 }

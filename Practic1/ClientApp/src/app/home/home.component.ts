@@ -18,7 +18,7 @@ export class HomeComponent {
 
 export class Settings {
   enviromentSettings: EnviromentSettings;
-  allowedOrigins: AllowedOrigins;
+  allowedOrigins: Array<string>;
 }
 
 export class EnviromentSettings {
