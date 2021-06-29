@@ -1,7 +1,4 @@
-<!--<div>{{settings!.enviromentSettings!.name}}</div>-->
 <div>
   <h1>Links:</h1>
-  Google: <a href="{{settings!.allowedOrigins[0]}}">{{settings!.allowedOrigins[0]}}</a>
-  Amazone: <a href="{{settings!.allowedOrigins[1]}}">{{settings!.allowedOrigins[1]}}</a>
-  Azure: <a href="{{settings!.allowedOrigins[2]}}">{{settings!.allowedOrigins[2]}}</a>
+  <a *ngFor="let link of settings!.allowedOrigins" href={{link}}> {{link}} </a>
 </div>

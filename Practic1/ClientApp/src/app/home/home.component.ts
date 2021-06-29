@@ -24,8 +24,3 @@ export class Settings {
 export class EnviromentSettings {
   name: string;
 }
-export class AllowedOrigins {
-  googleLink: string;
-  amazonLink: string;
-  azureLink: string;
-}
